@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Poppins:wght@300;400;600&display=swap');
+
+
+:root {
+
+    --primary-font: 'Chewy', cursive;
+    --secondary-font: 'Poppins', sans-serif;
+
+    --pink: #E6748E;
+    --melon-pink: #E5A9A9;
+    --sky-cloud: #A7BCBD;
+    --veranda-blue: #6BB2AE;
+    --sage: #A8B5A0;
+    --cream: #FFF8F0;
+    --font-color: #333333;
+}

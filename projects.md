@@ -9,7 +9,7 @@ permalink: /projects/
 Voici mes projets...
 
 ## Projet 1
-Ce projet et un site vitrine de vente de formations.
+Ce projet est un site vitrine de vente de formations.
 
 ## Projet 2
 Description du projet 2

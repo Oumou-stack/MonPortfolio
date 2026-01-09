@@ -1,0 +1,67 @@
+@import url(variables.css);
+@import url(style.css);
+
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    background: var(--cream);
+    font-family: var(--secondary-font);
+}
+
+.nav_logo, nav {
+    position: sticky;
+    z-index: 5;
+}
+
+.nav_logo {
+    display: flex;
+    justify-content: center;
+    background: white;
+}
+
+.nav_logo img {
+    height: 4.688rem;
+    width: 9.5rem;
+}
+
+nav{
+    height: 1.563rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--melon-pink);
+    color: white;
+}
+
+.nav_list {
+    width: 14.5rem;
+    display: flex;
+    font-size: 0.75rem;
+    gap: 1.125rem;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    height: 5rem;
+    background: var(--melon-pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.875rem;
+}

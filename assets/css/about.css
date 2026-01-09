@@ -1,0 +1,108 @@
+@import url(variables.css);
+
+
+body {
+    background-image: url("../images/bgCream.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about_hero {
+    height: 50rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.about_hero img {
+    width: 42.5rem;
+    height: 29.813rem;
+}
+
+.about_hero_text {
+    width: 27.57rem;
+}
+
+.about_hero h1 {
+    font-family: var(--primary-font);
+}
+
+.about_hero_text h1 {
+    font-family: var(--primary-font);
+    font-size: 2.5rem;
+    color: var(--veranda-blue);
+    margin-bottom: 1rem;
+}
+
+.about_hero_text p {
+    font-family: var(--secondary-font);
+    font-size: 1rem;
+    color: var(--font-color);
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+.scholarships {
+    height: 56.938rem;
+}
+
+.skills_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hardskills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.softskills {
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    height: 30rem;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+    height: 10rem;
+}
+
+.icon h2 {
+    font-family: var(--primary-font);
+    color: var(--veranda-blue);
+    font-size: 0.3rem;
+}
+
+.icon p {
+    font-family: var(--secondary-font);
+    font-size: 0.875rem;
+    color: var(--font-color);
+    line-height: 1.5;
+    margin-top: 0.5rem;
+}

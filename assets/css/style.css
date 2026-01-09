@@ -1,0 +1,148 @@
+@import url(variables.css);
+
+.hero {
+    height: 50rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url("../images/landigpage2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero_container {
+    display: flex;
+    gap: 12.813rem;
+    position: absolute;
+    z-index: 2;
+}
+
+.hero_content {
+    width: 27.57rem;
+    height: 18.938rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero_text {
+    max-width: 27.57rem;
+    height: 15.188rem;
+    display: flex;
+    flex-direction: column;
+    text-shadow: var(--font-color) 1px 1px 2px;
+}
+
+.hero_text h1 {
+    font-family: var(--primary-font);
+    font-size: 2.5rem;
+    color: var(--pink);
+    margin-bottom: 1rem;
+}
+
+.hero_text h2 {
+    font-family: var(--primary-font);
+    font-size: 1.563rem;
+    color: white;
+    line-height: 1.5;
+}
+
+.hero_text p {
+    font-family: var(--secondary-font);
+    font-size: 1rem;
+    color: var(--font-color);
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+.btn {
+    width: 9.683rem;
+    height: 2.75rem;
+    border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  box-shadow: 1px 1px 5px var(--font-color);
+}
+
+.btn:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+}
+
+
+.btn_container {
+    margin-top: 5rem;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.primary {
+    background: var(--melon-pink);
+    color: white;
+    font-family: var(--primary-font);
+    font-size: 0.75rem;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 1.25rem;
+    cursor: pointer;
+}
+
+.primary:hover {
+    background: var(--pink);
+}
+
+.secondary {
+    background: var(--cream);
+    color: var(--melon-pink);
+    font-family: var(--secondary-font);
+    font-size: 0.75rem;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 1.25rem;
+    cursor: pointer;
+}
+
+.secondary:hover {
+    background: var(--melon-pink);
+    color: white;
+}
+
+.hero .profile {
+  width: 20rem;
+  height: 29.938rem;
+  border-radius: 0% 0% 30% 30%;
+}
+
+.filter {
+    position: absolute;
+    width: 100%;
+    height: 50rem;
+    background: var(--cream);
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.poteau {
+    position: absolute;
+    z-index: 3;
+    width: 21.5rem;
+    height: 60rem;
+    left: 67.56rem;
+    top: -8.80rem;
+    overflow: hidden;
+}
+
+.cloud {
+    position: absolute;
+    z-index: 4;
+    left: 47.4rem;
+    top: 26.57rem;
+    opacity: 0.8;
+    
+}
