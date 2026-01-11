@@ -32,8 +32,6 @@ Spécialisée en développement front-end, j'aime transformer des idées créati
 
 </div>
 
-<!-- ![Photo de profil](/assets/images/pdpCartoon-removebg.png) -->
-
 </div>
 
 <img class="profile" src="/assets/images/pdpCartoon-removebg.png" alt="Photo de profil">

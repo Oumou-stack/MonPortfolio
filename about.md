@@ -16,7 +16,7 @@ permalink: /about/
 Après un premier parcours dans les domaines de la **santé et du social**, j’ai développé un fort sens des responsabilités, de l’adaptation et du travail en équipe, dans des environnements exigeants et humains.  
 
 
-Animée par la créativité et le travail manuel, je me suis ensuite orientée vers la **pâtisserie**, un domaine qui m’a appris la rigueur, la précision et l’importance du détail — des compétences que je mobilise aujourd’hui dans le développement web.  
+Animée par la créativité et le travail manuel, je me suis ensuite orientée vers la **pâtisserie** suivant ma passion enfouie, un domaine qui m’a appris la rigueur, la précision et l’importance du détail — des compétences que je mobilise aujourd’hui dans le développement web.  
 
 
 Actuellement en **reconversion professionnelle**, je me forme au **développement web full-stack** à la **Web@cadémie by Epitech**. Curieuse, rigoureuse et créative, j’ai une appétence particulière pour le **front-end**, là où la technique rencontre l’esthétique et l’expérience utilisateur.  
@@ -33,35 +33,66 @@ Je suis aujourd’hui à la recherche d’une **alternance**, auprès de toute s
 
 ## Compétences techniques  
 
-<div markdown="1" class="cards">
+<div markdown="1" class="tech-icons">
 
-<div markdown="1" class="card">
-
-### Développement web
-- HTML5  
-- CSS3  
-- JavaScript  
-- PHP  
-
+<div class="tech-item">
+  <i class="devicon-html5-plain colored"></i>
+  <p>HTML5</p>
 </div>
 
-<div markdown="1" class="card">
-
-### Outils & environnement
-- Bash  
-- Git / GitHub  
-- GitHub Pages 
-- VS Code  
-- Figma 
-
+<div class="tech-item">
+  <i class="devicon-css3-plain colored"></i>
+  <p>CSS3</p>
 </div>
 
-<div markdown="1" class="card">
+<div class="tech-item">
+  <i class="devicon-javascript-plain colored"></i>
+  <p>JavaScript</p>
+</div>
 
-### Génération de contenu
-- Markdown  
-- Jekyll  
+<div class="tech-item">
+  <i class="devicon-php-plain colored"></i>
+  <p>PHP</p>
+</div>
 
+<div class="tech-item">
+  <i class="devicon-bash-plain"></i>
+  <p>Bash</p>
+</div>
+
+<div class="tech-item">
+  <i class="devicon-git-plain colored"></i>
+  <p>Git</p>
+</div>
+
+<div class="tech-item">
+  <i class="devicon-github-original"></i>
+  <p>GitHub</p>
+</div>
+
+<div class="tech-item">
+  <i class="devicon-vscode-plain colored"></i>
+  <p>VS Code</p>
+</div>
+
+<div class="tech-item">
+  <i class="devicon-figma-plain colored"></i>
+  <p>Figma</p>
+</div>
+
+<div class="tech-item">
+  <i class="devicon-markdown-original"></i>
+  <p>Markdown</p>
+</div>
+
+<div class="tech-item">
+  <i class="devicon-jekyll-plain colored"></i>
+  <p>Jekyll</p>
+</div>
+
+<div class="tech-item">
+  <img src="/assets/images/katalonLogo.png">
+  <p>Katalon Studio</p>
 </div>
 
 </div>
@@ -69,7 +100,6 @@ Je suis aujourd’hui à la recherche d’une **alternance**, auprès de toute s
 </div>
 
 <div markdown="1" class="softskills">
-
 
 ## Qualités personnelles
 
@@ -121,7 +151,7 @@ Envie constante de comprendre, d’explorer et d’améliorer mes compétences.
 
 **Créativité**  
 
-Autant dans le code que dans la conception visuelle,
+Autant dans le code que dans la création et dans la conception visuelle,
 
 </div>
 
@@ -139,51 +169,115 @@ Habituée au travail collaboratif et à l’entraide.
 
 </div>
 
-<div class="languages">
+<div markdown="1" class="languages">
 
 ## Langues
 
-**Français :** Langue maternelle  
+<div markdown="1" class="cards_language">
 
-**Anglais :** Niveau B2  
 
-**Soinké :** Niveau intermédiaire  
+<div markdown="1" class="card_language">
+
+**Français** 
+
+Langue maternelle  
+
+</div>
+
+<div markdown="1" class="card_language">
+
+**Anglais** 
+
+Niveau B2  
+
+</div>
+
+<div markdown="1" class="card_language">
+
+**Soninké** 
+
+Langue maternelle 
+
+</div>
+
+</div>
+
+</div>
+
+
+</section>
+
+<section markdown="1" class="scholarship">
+
+## Formations
+
+<div markdown="1" class="education">
+
+<div markdown="1" class="education_card">
+
+### La toile - Conception et développement web  
+
+#### emlyon buisness school  
+*2024 - 2025*  
+
+Obtention de la certification,  
+Major de promo dans le cours de conception web.  
+
+</div>
+
+<div markdown="1" class="education_card">
+
+### CAP Pâtisserie  
+
+#### CEPROC PARIS    
+*2022 - 2023*
+
+Obtention du CAP.
+
+</div>
+
+<div markdown="1" class="education_card">
+
+### BAC ASSP 
+
+#### Lycée professionel Louis Dardenne  
+*2016 - 2019*
+
+Obtention du Bac Accompagnement Soin et Service à la Personne avec mention bien.
+
+</div>
 
 </div>
 
 </section>
 
-<section markdown="1" class="scholarships">
-
-## Formation
-
-**La toile - Conception  et développement web** - emlyon buisness school  
-*2024 - 2025*  
-- Obtention de la certification,  
-- Major de promo dans le cours de conception web.  
-
-**CAP Pâtisserie** - CEPROC PARIS    
-*2022 - 2023*
-- Obtention du CAP.
-
-**BAC ASSP** - Lycée professionel Louis Dardenne    
-*2016 - 2019*
-- Obtention du Bac Accompagnement Soin et Service à la Personne avec mention bien.
-
+<section markdown="1" class="experiences">
 
 ## Expériences professionnelles
 
-**Stage Testeur Q&A** - Europ Assistance   
+<div markdown="1" class="experiences_cards">
+
+<div markdown="1" class="experiences_card">
+
+### Stage Testeur Q&A  
+
+#### Europ Assistance   
 *Mars 2025 - Avril 2025*  
 **Automatisation de test logiciel**  
 
 - Construction de test sur Katalon Studio,
 - Mise en place  de documentation technique,
 - Maîtrise des outils : Katalon, Suite Office,
-- Maitrise des environnement: CI/CD et Azure DevOps,
+- Notions des environnements: CI/CD et Azure DevOps,
 - Maîtrise du processus Git : récupération, commit, push de projets.
 
-**Acompagnate educative de la petite enfance** - JBM Médical / Babilou   
+</div>
+
+<div markdown="1" class="experiences_card">
+
+### Acompagnate educative de la petite enfance  
+
+#### JBM Médical / Babilou   
 *Septembre 2022 - Juin 2024*  
 
 - Répondre aux besoins d’hygiène et de confort,
@@ -191,9 +285,15 @@ Habituée au travail collaboratif et à l’entraide.
 - Transmissions aux parents et à l’équipe,
 - Stagiaire en hôpital/crèche/EHPAD,
 - Répondre aux besoins d’hygiène et de confort,
-- Effectuer des soins techniques (prise de sang, test, pansements. constantes...)
+- Effectuer des soins techniques (prise de sang, test, pansements. constantes...)  
 
-**Apprentie pâtissière** - One more cakes   
+</div>
+
+<div markdown="1" class="experiences_card">
+
+### Apprentie pâtissière  
+
+#### One more cakes   
 *Octobre 2022 - Juin 2024*  
 
 - Confection des commandes,
@@ -202,20 +302,69 @@ Habituée au travail collaboratif et à l’entraide.
 - Préparation et agencement de la vitrine,
 - Prise de photos pour alimenter les résaux sociaux.
 
+</div>
+
+</div>
+
 </section>
 
 
+<section markdown="1" class="hobbies">
+
 ## Centres d'intérêt
 
-**Activités manuelles** : crochet, couture, scrapbooking,
+<div markdown="1" class="hobbies_container">
 
-**Voyage & découverte** : ouverture culturelle et curiosité,
+<div markdown="1" class="hobbie_icon">
 
-**Design & esthétique** : intérêt pour l’UX/UI et la cohérence visuelle,
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brush-icon lucide-brush"><path d="m11 10 3 3"/><path d="M6.5 21A3.5 3.5 0 1 0 3 17.5a2.62 2.62 0 0 1-.708 1.792A1 1 0 0 0 3 21z"/><path d="M9.969 17.031 21.378 5.624a1 1 0 0 0-3.002-3.002L6.967 14.031"/></svg>
 
-**Création culinaire** : la pâtisserie comme terrain d’expression créative.
+**Activités manuelles**  
 
+Crochet, couture, scrapbooking...
+
+</div>
+
+<div markdown="1" class="hobbie_icon">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-tickets-plane-icon lucide-tickets-plane"><path d="M10.5 17h1.227a2 2 0 0 0 1.345-.52L18 12"/><path d="m12 13.5 3.794.506"/><path d="m3.173 8.18 11-5a2 2 0 0 1 2.647.993L18.56 8"/><path d="M6 10V8"/><path d="M6 14v1"/><path d="M6 19v2"/><rect x="2" y="8" width="20" height="13" rx="2"/></svg>
+
+**Voyage & découverte**  
+
+Ouverture culturelle et curiosité.
+
+</div>
+
+<div markdown="1" class="hobbie_icon">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-figma-icon lucide-figma"><path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"/><path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"/><path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z"/><path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z"/><path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z"/></svg>
+
+**Design & esthétique**  
+
+Intérêt pour l’UX/UI et la cohérence visuelle.
+
+</div>
+
+<div markdown="1" class="hobbie_icon">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cake-slice-icon lucide-cake-slice"><path d="M16 13H3"/><path d="M16 17H3"/><path d="m7.2 7.9-3.388 2.5A2 2 0 0 0 3 12.01V20a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-8.654c0-2-2.44-6.026-6.44-8.026a1 1 0 0 0-1.082.057L10.4 5.6"/><circle cx="9" cy="7" r="2"/></svg>
+
+**Création culinaire**  
+
+La pâtisserie comme terrain d’expression créative.
+
+</div>
+
+</div>
+
+</section>
+
+<section markdown="1" class="conclusion">
 
 ## En quelques mots
 
-Motivée, curieuse et en constante évolution, je suis à la recherche d’une **alternance en développement web** afin de consolider mes compétences, contribuer à des projets concrets et évoluer au sein d’une équipe prête à m’accompagner dans cette nouvelle aventure professionnelle.
+Motivée, curieuse et en constante évolution, je suis à la recherche d'une **alternance en développement web** afin de consolider mes compétences, contribuer à des projets concrets et évoluer au sein d'une équipe prête à m'accompagner dans cette nouvelle aventure professionnelle.
+
+<a href="/projects/"><button class="btn primary">Voir mes projets</button></a>
+
+</section>

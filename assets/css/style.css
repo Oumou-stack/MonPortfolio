@@ -32,7 +32,7 @@
     height: 15.188rem;
     display: flex;
     flex-direction: column;
-    text-shadow: var(--font-color) 1px 1px 2px;
+    text-shadow: var(--font-color) 0.063rem 0.063rem 0.125rem;
 }
 
 .hero_text h1 {
@@ -62,10 +62,10 @@
     height: 2.75rem;
     border: 0;
   line-height: 2.5;
-  padding: 0 20px;
+  padding: 0 1.25rem;
   font-size: 1rem;
   text-align: center;
-  box-shadow: 1px 1px 5px var(--font-color);
+  box-shadow: 0.063rem 0.063rem 0.313rem var(--font-color);
 }
 
 .btn:hover {
@@ -85,8 +85,8 @@
     background: var(--melon-pink);
     color: white;
     font-family: var(--primary-font);
-    font-size: 0.75rem;
-    text-shadow: 1px 1px 1px black;
+    font-size: 0.90rem;
+    text-shadow: 0.063rem 0.063rem 0.063rem black;
     border-radius: 1.25rem;
     cursor: pointer;
 }
@@ -96,11 +96,11 @@
 }
 
 .secondary {
-    background: var(--cream);
-    color: var(--melon-pink);
+    background: white;
+    color: var(--pink);
     font-family: var(--secondary-font);
     font-size: 0.75rem;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 0.063rem 0.063rem 0.063rem black;
     border-radius: 1.25rem;
     cursor: pointer;
 }
