@@ -39,27 +39,28 @@
 
 
 .skills_container {
-  height: 95rem;
-  background: rgba(167, 188, 189, 0.257);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
+.hardskills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--blue-light);
+  margin: 0.5rem 0 3rem 0;
+  height: 40rem;
+}
+
 .hardskills h2,
-.softskills h2,
 .languages h2 {
   font-family: var(--primary-font);
   font-size: 2.5rem;
   color: var(--pink);
   text-align: center;
   margin-bottom: 2rem;
-}
-
-.hardskills {
-  margin: 0.5rem 0 3rem 0;
-  height: 25rem;
 }
 
 .tech-icons {
@@ -118,60 +119,6 @@
   margin: 0;
 }
 
-.cards {
-  display: flex;
-  gap: 10rem;
-}
-
-.card {
-  width: 15rem;
-  height: 12rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: white;
-  padding: 1rem;
-  border-radius: 1rem;
-  border-top: 0.313rem solid var(--veranda-blue);
-  box-shadow: 0 0.25rem 1.25rem rgba(0, 0, 0, 0.08);
-  transition: all 0.3s;
-
-}
-
-.card li {
-  font-family: var(--secondary-font);
-  color: var(--font-color);
-  padding: 0.4rem 0;
-  position: relative;
-  padding-left: 1.5rem;
-}
-
-.card li::before {
-  content: '▸';
-  position: absolute;
-  left: 0;
-  color: var(--pink);
-  font-weight: bold;
-}
-
-.card:hover {
-  transform: translateY(-0.5rem);
-  border-top-color: var(--pink);
-  box-shadow: 0 0.75rem 2.5rem rgba(230, 116, 142, 0.2);
-}
-
-.card h3 {
-  font-family: var(--primary-font);
-  font-size: 1.5rem;
-  color: var(--veranda-blue);
-  margin-bottom: 1rem;
-}
-
-.card ul {
-  list-style: none;
-}
-
 .softskills {
   height: 45rem;
   display: flex;
@@ -179,6 +126,14 @@
   align-items: center;
   justify-content: center;
   align-content: center;
+  margin-bottom: 2rem;
+}
+
+.softskills h2 {
+  font-family: var(--primary-font);
+  font-size: 2.5rem;
+  color: var(--veranda-blue);
+  text-align: center;
   margin-bottom: 2rem;
 }
 
@@ -256,10 +211,12 @@
 
 
 .languages {
-  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 20rem;
+  background: var(--blue-light);
 }
 
 .cards_language {
@@ -281,10 +238,15 @@
   justify-content: center;
   padding: 1rem;
   border-radius: 1rem;
-  border-top: 0.313rem solid var(--veranda-blue);
+  border-top: 0.313rem solid var(--melon-pink);
   box-shadow: 0 0.25rem 1.25rem rgba(0, 0, 0, 0.08);
   transition: all 0.3s;
+}
 
+.card_language:hover {
+  transform: translateY(-0.313rem);
+  box-shadow: 0 0.5rem 1.875rem rgba(0, 0, 0, 0.12);
+  border-top-color: var(--pink);
 }
 
 .scholarship {
@@ -305,7 +267,7 @@
 
 .education {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .education_card {
@@ -315,25 +277,28 @@
   align-items: center;
   background: white;
   width: 20rem;
-  padding: 0 2rem;
+  height: 15rem;
   padding: 1rem;
-  border-radius: 1rem;
-  border-top: 0.313rem solid var(--veranda-blue);
-  box-shadow: 0 0.25rem 1.25rem rgba(0, 0, 0, 0.08);
+  border-radius: 1.25rem;
+  box-shadow: 0 0.25rem 0.938rem rgba(0, 0, 0, 0.08);
   transition: all 0.3s;
+  border: 0.188rem solid transparent;
 
 }
 
 .education_card:hover {
-  border-top: 0.313rem solid var(--pink);
-  transform: translateY(-0.5rem);
-  box-shadow: 0 0.75rem 2.5rem rgba(230, 116, 142, 0.2);
+  transform: translateY(-0.625rem) scale(1.05);
+  border-color: var(--pink);
+  box-shadow: 0 0.5rem 1.875rem rgba(var(--pink-rgb), 0.3);
 }
 
 .education_card h3 {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2rem;
   font-family: var(--primary-font);
   font-size: 1.4rem;
-  color: var(--veranda-blue);
+  color: var(--pink);
 }
 
 .education_card h4 {
@@ -350,12 +315,6 @@
   font-size: 1rem;
   color: var(--font-color);
   line-height: 1.5;
-}
-
-.card_language:hover {
-  transform: translateY(-0.5rem);
-  border-top-color: var(--pink);
-  box-shadow: 0 0.75rem 2.5rem rgba(230, 116, 142, 0.2);
 }
 
 .experiences {
